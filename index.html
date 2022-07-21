@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>student Dashbord</title>
+ <!-- stylesheet -->
+ <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+ <div class="container">
+  <!-- side-bar naigation -->
+  <div class="navigation">
+   <ul>
+    <li>
+     <a href="#">
+      <span class="icon"><ion-icon name="school-outline"></ion-icon></span>
+      <span class="title">Circle-44</span>
+     </a>
+    </li>
+
+    <li>
+     <a href="#">
+      <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+      <span class="title">Home</span>
+     </a>
+    </li>
+
+    <li>
+     <a href="#">
+      <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+      <span class="title">students</span>
+     </a>
+    </li>
+
+    <li>
+     <a href="#">
+      <span class="icon"><ion-icon name="person-sharp"></ion-icon></span>
+      <span class="title">Instructors</span>
+     </a>
+    </li>
+
+    <li>
+     <a href="#">
+      <span class="icon"><ion-icon name="analytics-sharp"></ion-icon></span>
+      <span class="title">Learning Tracks</span>
+     </a>
+    </li>
+
+    <li>
+     <a href="#">
+      <span class="icon"><ion-icon name="today-sharp"></ion-icon></span>
+      <span class="title">Events</span>
+     </a>
+    </li>
+
+<li>
+     <a href="#">
+      <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+      <span class="title">Sign-Out</span>
+     </a>
+    </li>
+      </ul>
+  </div>
+  <!-- ===============main============= -->
+  <div class="main">
+   <div class="topbar">
+    <div class="toggle">
+     <ion-icon name="menu-outline"></ion-icon>
+    </div>
+    
+    <div class="search">
+     <label> 
+      <input type="text" placeholder="search here"><ion-icon name="search-outline"></ion-icon>
+     </label>
+    </div>
+
+    <div class="user">
+     <img src="/images/mypicture.jpg" alt="user-img">
+    </div>
+      </div>
+      <!-- cards -->
+      <div class="cardBox">
+       <div class="card">
+        <div>
+         <div class="numbers">4,032</div>
+         <div class="cardName">Total Students</div>
+        </div>
+        <div class="iconbx"><ion-icon name="people-outline"></ion-icon></div>
+       </div>
+
+       <div class="card">
+        <div>
+         <div class="numbers">1,800</div>
+         <div class="cardName">male</div>
+           </div>
+        <div class="iconbx"><ion-icon name="man-outline"></ion-icon></div>
+       </div>
+
+       <div class="card">
+        <div>
+         <div class="numbers">2,232</div>
+         <div class="cardName">female</div>
+        </div>
+        <div class="iconbx"><ion-icon name="woman-outline"></ion-icon></div>
+       </div>
+
+       <div class="card">
+        <div>
+         <div class="numbers">22</div>
+         <div class="cardName">Instructors</div>
+         </div>
+        <div class="iconbx"><ion-icon name="person-sharp"></ion-icon></div>
+       </div>
+      </div>
+      <!-- instructor details -->
+      
+       <div class="instructorDetails">
+        <div class="RecentInstructor">
+         <div class="cardHeader">
+          <h2>Instructors</h2>
+          <a href="#" class="btn">view All</a>
+         </div>
+         <table>
+          <thead>
+           <tr>
+            <td>Instructor Name</td>
+            <td>  Courses Taught</td>
+           </tr>
+
+           <tbody>
+            <tr>
+             <td>Setemi Ojo</td>
+             <td>html, css, Javascript</td>
+            </tr>
+            <tr>
+             <td>Rising Odega</td>
+             <td>Javascript</td>
+            </tr>
+            <tr>
+             <td>Instructor Name</td>
+             <td>courses(stack)</td>
+            </tr>
+            <tr>
+             <td>Instructor Name</td>
+             <td>courses(stack)</td>
+            </tr>
+            <tr>
+             <td>Instructor Name</td>
+             <td>courses(stack)</td>
+            </tr>
+           </tbody>
+
+          </thead>
+         </table>
+        </div>
+        <!-- next card -->
+        <div class="whole">
+         <div class="age">
+          <table>
+           <tbody>
+            <tr>
+             <td>minimum Age</td>
+             <td>16</td>
+            </tr>
+            <tr>
+             <td>maximum Age</td>
+             <td>60</td>
+            </tr>
+            <tr>
+             <td>Average Age</td>
+             <td>28</td>
+            </tr>
+
+          </table>
+         </div>
+         <!-- visual tracks chart -->
+         <div class="tracks">
+         
+<div class="pie animate" style="--p:32.8;--c:rgb(187, 7, 7);"><br><br><br> <h4>frontend 1332(33%)</h4></div>
+<div class="pie animate" style="--p:31.9;--c:orange;"> <br><br><br><h4>backEnd 1286(32%)</h4></div>
+<div class="pie animate" style="--p:34;--c:var(--green)"><br><br><br><h4> Cloud 1414(35%)</h4></div>
+         </div>
+         <!-- end -->
+         </div>
+         
+         </div>
+       
+   </div>
+  </div>
+      
+<!-- script -->
+<script src="assets/js/main.js"></script>
+             <!-- ionic icons -->
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
