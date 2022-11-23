@@ -10,6 +10,6 @@ When the user opens up your dashboard app, they see HTML tables showing the foll
 How many courses a given instructor is taking
 How many students are in each of the tracks (frontend, backend and cloud)
 How many students are male, female or other genders/orientation
-Minimum, maximum, and average age of students in the school
+Minimum, maximum, and average age of students in the school.
 Advanced features (OPTIONAL- build any, some or all of the following if you feel up to it)
 Make the tables sortable by (at least) the column holding the numbers. Indicate what columns are sortable (e.g with an icon or by adding the <> charectars in the column header e.t.c). When the user clicks on a sortable column header, sort the records in the table by that column (e.g switch the current sort order such that if the column was already sorted ASC, sort in DESC)
